@@ -1,0 +1,369 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "birth2",
+    "_objFlags": 0,
+    "__editorExtras__": {
+      "embeddedPlayerGroups": []
+    },
+    "_native": "",
+    "sample": 30,
+    "speed": 1,
+    "wrapMode": 2,
+    "enableTrsBlending": false,
+    "_duration": 1.4,
+    "_hash": 500763545,
+    "_tracks": [
+      {
+        "__id__": 1
+      },
+      {
+        "__id__": 7
+      }
+    ],
+    "_exoticAnimation": null,
+    "_events": [],
+    "_embeddedPlayers": [],
+    "_additiveSettings": {
+      "__id__": 18
+    },
+    "_auxiliaryCurveEntries": []
+  },
+  {
+    "__type__": "cc.animation.ObjectTrack",
+    "_binding": {
+      "__type__": "cc.animation.TrackBinding",
+      "path": {
+        "__id__": 2
+      },
+      "proxy": null
+    },
+    "_channel": {
+      "__id__": 5
+    }
+  },
+  {
+    "__type__": "cc.animation.TrackPath",
+    "_paths": [
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      },
+      "spriteFrame"
+    ]
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "ui/enemy/die_ice-001"
+  },
+  {
+    "__type__": "cc.animation.ComponentPath",
+    "component": "mutiTexture2D"
+  },
+  {
+    "__type__": "cc.animation.Channel",
+    "_curve": {
+      "__id__": 6
+    }
+  },
+  {
+    "__type__": "cc.ObjectCurve",
+    "_times": [
+      0,
+      0.03333333333333333,
+      0.1,
+      0.13333333333333333,
+      0.2,
+      0.23333333333333334,
+      0.3,
+      0.3333333333333333,
+      0.4,
+      0.43333333333333335,
+      0.5,
+      0.5333333333333333,
+      0.6,
+      0.6666666666666666,
+      0.7333333333333333,
+      0.8,
+      0.8666666666666667,
+      0.9333333333333333,
+      1,
+      1.0666666666666667,
+      1.1333333333333333,
+      1.2,
+      1.2666666666666666,
+      1.3333333333333333,
+      1.4
+    ],
+    "_values": [
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@61649",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@e1396",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@3db24",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@bb446",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@57aa0",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@b9f0e",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@e60ef",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@3898e",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@a6a94",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@b3263",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@99c18",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@f042d",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@9fa5d",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@4ba7d",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@a388d",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@34f7e",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@62273",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@e8cf3",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@cbf6e",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@9d561",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@2aec2",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@880c8",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@267c3",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@8beb4",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "9425396b-ad38-49dd-9eb5-5e456cf32587@f9b70",
+        "__expectedType__": "cc.SpriteFrame"
+      }
+    ]
+  },
+  {
+    "__type__": "cc.animation.VectorTrack",
+    "_binding": {
+      "__type__": "cc.animation.TrackBinding",
+      "path": {
+        "__id__": 8
+      },
+      "proxy": null
+    },
+    "_channels": [
+      {
+        "__id__": 10
+      },
+      {
+        "__id__": 12
+      },
+      {
+        "__id__": 14
+      },
+      {
+        "__id__": 16
+      }
+    ],
+    "_nComponents": 3
+  },
+  {
+    "__type__": "cc.animation.TrackPath",
+    "_paths": [
+      {
+        "__id__": 9
+      },
+      "scale"
+    ]
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "ui/enemy/die_ice-001"
+  },
+  {
+    "__type__": "cc.animation.Channel",
+    "_curve": {
+      "__id__": 11
+    }
+  },
+  {
+    "__type__": "cc.RealCurve",
+    "_times": [
+      0,
+      0.03333333333333333
+    ],
+    "_values": [
+      {
+        "__type__": "cc.RealKeyframeValue",
+        "interpolationMode": 0,
+        "tangentWeightMode": 0,
+        "value": 1.6699999570846558,
+        "rightTangent": 0,
+        "rightTangentWeight": 1,
+        "leftTangent": 0,
+        "leftTangentWeight": 1,
+        "easingMethod": 0,
+        "__editorExtras__": null
+      },
+      {
+        "__type__": "cc.RealKeyframeValue",
+        "interpolationMode": 0,
+        "tangentWeightMode": 0,
+        "value": 1.6699999570846558,
+        "rightTangent": 0,
+        "rightTangentWeight": 1,
+        "leftTangent": 0,
+        "leftTangentWeight": 1,
+        "easingMethod": 0,
+        "__editorExtras__": null
+      }
+    ],
+    "preExtrapolation": 1,
+    "postExtrapolation": 1
+  },
+  {
+    "__type__": "cc.animation.Channel",
+    "_curve": {
+      "__id__": 13
+    }
+  },
+  {
+    "__type__": "cc.RealCurve",
+    "_times": [
+      0,
+      0.03333333333333333
+    ],
+    "_values": [
+      {
+        "__type__": "cc.RealKeyframeValue",
+        "interpolationMode": 0,
+        "tangentWeightMode": 0,
+        "value": 1.6699999570846558,
+        "rightTangent": 0,
+        "rightTangentWeight": 1,
+        "leftTangent": 0,
+        "leftTangentWeight": 1,
+        "easingMethod": 0,
+        "__editorExtras__": null
+      },
+      {
+        "__type__": "cc.RealKeyframeValue",
+        "interpolationMode": 0,
+        "tangentWeightMode": 0,
+        "value": 1.6699999570846558,
+        "rightTangent": 0,
+        "rightTangentWeight": 1,
+        "leftTangent": 0,
+        "leftTangentWeight": 1,
+        "easingMethod": 0,
+        "__editorExtras__": null
+      }
+    ],
+    "preExtrapolation": 1,
+    "postExtrapolation": 1
+  },
+  {
+    "__type__": "cc.animation.Channel",
+    "_curve": {
+      "__id__": 15
+    }
+  },
+  {
+    "__type__": "cc.RealCurve",
+    "_times": [
+      0.03333333333333333
+    ],
+    "_values": [
+      {
+        "__type__": "cc.RealKeyframeValue",
+        "interpolationMode": 0,
+        "tangentWeightMode": 0,
+        "value": 1,
+        "rightTangent": 0,
+        "rightTangentWeight": 1,
+        "leftTangent": 0,
+        "leftTangentWeight": 1,
+        "easingMethod": 0,
+        "__editorExtras__": null
+      }
+    ],
+    "preExtrapolation": 1,
+    "postExtrapolation": 1
+  },
+  {
+    "__type__": "cc.animation.Channel",
+    "_curve": {
+      "__id__": 17
+    }
+  },
+  {
+    "__type__": "cc.RealCurve",
+    "_times": [],
+    "_values": [],
+    "preExtrapolation": 1,
+    "postExtrapolation": 1
+  },
+  {
+    "__type__": "cc.AnimationClipAdditiveSettings",
+    "enabled": false,
+    "refClip": null
+  }
+]
