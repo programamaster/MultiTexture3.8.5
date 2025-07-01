@@ -41,7 +41,7 @@ export class ZombieTest extends Component {
         this.clearZombies();
         this.spawnCount = Number(this.editbox.string);
         // Canvas dimensions (adjust to match your Canvas)
-        const canvasWidth = 1000;
+        const canvasWidth = 300;
         const canvasHeight = 600;
         const halfWidth = canvasWidth / 2;
         const halfHeight = canvasHeight / 2;
