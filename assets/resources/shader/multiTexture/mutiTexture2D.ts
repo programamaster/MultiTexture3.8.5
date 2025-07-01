@@ -26,7 +26,7 @@ const QUAD_INDICES = Uint16Array.from([0, 1, 2, 1, 3, 2]);
 
 const simple: IAssembler = {
     createData(sprite: Sprite): RenderData {
-        const renderData = (sprite as unknown as mutiTexture2D).requestRenderData();
+        const renderData = (sprite as mutiTexture2D).requestRenderData();
         renderData.dataLength = 4;
         renderData.resize(4, 6);
         renderData.chunk.setIndexBuffer(QUAD_INDICES);
@@ -35,7 +35,7 @@ const simple: IAssembler = {
 
     updateRenderData(sprite: Sprite): void {
         const frame = sprite.spriteFrame;
-        const multiTexSprite = sprite as unknown as mutiTexture2D; // 提取类型断言
+        const multiTexSprite = sprite as mutiTexture2D; // 提取类型断言
 
         this.updateUVs(sprite);
         const renderData = sprite.renderData;
@@ -232,7 +232,7 @@ export class mutiTexture2D extends Sprite {
     set textureIdx(idx: TEXTURE_IDX) {
         this._textureIdx = idx;
         this.textureIdxDirty = true;
-        simple.updateRenderData(this as unknown as UIRenderer);
+        simple.updateRenderData(this as UIRenderer);
     }
     get textureIdx(): TEXTURE_IDX {
         return this._textureIdx;
@@ -243,7 +243,7 @@ export class mutiTexture2D extends Sprite {
 
     public requestRenderData(): RenderData {
         const data = RenderData.add(vfmtPosUvColorTex);
-        data.initRenderDrawInfo(this as unknown as Sprite, 0);
+        data.initRenderDrawInfo(this as Sprite, 0);
         this._renderData = data;
         return data;
     }
@@ -252,7 +252,7 @@ export class mutiTexture2D extends Sprite {
     onEnable(): void {
         super.onEnable();
         this.textureIdxDirty = true;
-        simple.updateRenderData(this as unknown as UIRenderer);
+        simple.updateRenderData(this as UIRenderer);
     }
 
     protected _flushAssembler(): void {

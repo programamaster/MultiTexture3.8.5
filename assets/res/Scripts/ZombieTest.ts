@@ -1,4 +1,4 @@
-import { _decorator, Component, instantiate, Node, Animation, Prefab } from 'cc';
+import { _decorator, Component, instantiate, Node, Animation, Prefab, EditBox } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('ZombieTest')
@@ -15,14 +15,31 @@ export class ZombieTest extends Component {
 
     @property({ tooltip: "Toggle to spawn/destroy prefabs" })
     private isSpawning: boolean = false;
+
+    @property(EditBox)
+    private editbox: EditBox = null!;
+
+    private zombieContainer: Node = null;
+
     start() {
-        this.spawnZombies();
+        // Initialize container but don't spawn yet
+        this.zombieContainer = new Node('ZombieContainer');
+        this.zombieContainer.parent = this.node;
+    }
+
+    clickToggle() {
+        this.isSpawning = !this.isSpawning;
+    }
+
+    clearZombies() {
+        if (this.zombieContainer) {
+            this.zombieContainer.destroyAllChildren();
+        }
     }
 
     spawnZombies() {
-        const container = new Node('ZombieContainer');
-        container.parent = this.node;
-
+        this.clearZombies();
+        this.spawnCount = Number(this.editbox.string);
         // Canvas dimensions (adjust to match your Canvas)
         const canvasWidth = 1000;
         const canvasHeight = 600;
@@ -34,9 +51,9 @@ export class ZombieTest extends Component {
             zombie.setPosition(
                 Math.random() * canvasWidth - halfWidth,
                 Math.random() * canvasHeight - halfHeight,
-                0
+
             );
-            zombie.parent = container;
+            zombie.parent = this.zombieContainer;
             let anim = zombie.getComponent(Animation);
             anim.play('atk01');
 
@@ -52,7 +69,6 @@ export class ZombieTest extends Component {
         }
     }
 
-    // ... rest of code ...
 }
 
 
